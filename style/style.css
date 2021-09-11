@@ -1,0 +1,96 @@
+@import 'https://fonts.googleapis.com/css2? family = Montserrat: wght @ 500 & display = swap';
+
+:root{
+    --cor0:#011FE0;
+    --cor1:#0015A1;
+    --cor3:#000D61;
+    --cordetalhe:#a8a8a88a;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
+
+header{
+    text-align: center;
+    padding: 10px;
+    background-color: var(--cor0);
+    color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.342);
+}
+
+section{
+    margin: auto;
+    max-width: 800px;
+    min-width: 300px;
+    padding: 15px;
+}
+
+section > #conteudo > #titulo{
+    margin: auto;
+    font-weight: 700;
+    font-size: 25px;
+    color: var(--cor3);
+    max-width: 700px;
+    min-width: 300px;
+}
+
+@media screen and (max-width:585px){
+    header{
+        font-size: 10px;
+    }
+
+    section > #conteudo > #titulo{
+        font-size: 20px;
+    }
+
+}
+
+section > #conteudo > #desc{
+    margin: auto;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 500;
+    padding: 15px;
+    padding-bottom: 15px;
+    color: var(--cor3);
+    max-width: 700px;
+    min-width: 300px;
+}
+
+#video{
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    padding-bottom: 56%;
+}
+
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
+}
+
+#galeria{
+    text-align: center;
+    
+}
+
+#galeria > img{
+    width: 30%;
+}
+
+footer > div{
+    text-align: center;
+    background-color: var(--cor0);
+    height: 10px;
+}
